@@ -1,0 +1,147 @@
+div.contactfrom{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7%;
+    box-sizing: border-box;
+    div.all-form{
+        width: 100%;
+        height: 100%;
+        background-color: #1C1E53;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+
+        div.left{
+            width: 100%;
+            height: 100%;
+            div.tittle{
+                width: 100%;
+                height: 100%;
+                position: relative;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    
+                }
+                
+                div.info{
+                    background-color: #1C1E5380;
+                    position: absolute;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    font-family: poppins;
+                    padding: 5%;
+                    box-sizing: border-box;
+                    div.head{
+                        font-weight: 600;
+                        font-size: 54px;
+                        line-height: 74px;
+                        color: white;
+                    }
+                    div.text{
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 28px;
+                        color: white;
+                    }
+                }
+            }
+        }
+        div.right{
+            width: 100%;
+            height: 100%;
+            font-family: poppins;
+            div.topic{
+                padding: 11%;
+                box-sizing: border-box;
+                div.header{
+                    font-weight: 400;
+                    font-size: 32px;
+                    line-height: 48px;
+                    color: white;
+                    padding-bottom: 5%;
+                    box-sizing: border-box;
+                }
+                div.detail{
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: #F4F6FC;
+                }
+            }
+
+            form{
+                width: 100%;
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                input{
+                    width: 75%;
+                    border-radius: 15px;
+                    background-color: #1C1E53;
+                    border: 1.5px solid #FFFFFF0D;
+                    outline: none;
+                    color: #F4F6FC;
+                    padding: 4%;
+                    box-sizing: border-box;
+                    &::placeholder{
+                        color:Grey;
+                        font-family: poppins;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 28px;
+                    }
+                }
+
+            }
+            
+
+            div.btn{
+                width: 100%;
+                button{
+                    width: 100%;
+                    padding: 3%;
+                    border-radius: 30px;
+                    margin: 6% auto;
+                    border: none;
+                    background-color: #FCD980;
+                    font-family: Manrope;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 32px;
+                    color: #1B1C2B;
+
+                    &:active{
+                        transform: scale(95%);
+                    }
+                }
+            }
+
+            div.link{
+                width: 100%;
+                text-align: center;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 32px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 2%;
+                    padding-bottom: 8%;
+                    box-sizing: border-box;
+                }
+            }
+        }
+    }
+}

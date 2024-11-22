@@ -1,0 +1,94 @@
+div.benefit{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div.main{
+        width: 80%;
+        height: 100%;
+        padding-top: 5%;
+        box-sizing: border-box;
+        div.header{
+            width: 100%;
+            height: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            div.text-head{
+                width: 60%;
+                height: 100%;
+                padding-top: 3%;
+                box-sizing: border-box;
+                text-align: center;
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 64px;
+                font-family: poppins;
+                color: #282938;
+            }
+        }
+        div.cards{
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 5%;
+            padding-top: 5%;
+            padding-bottom: 5%;
+            box-sizing: border-box;
+            div.card{
+                width: 33%;
+                height: 100%;
+                background-color: #F4F6FC;
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: center;
+                align-items: start;
+                gap: 5%;
+                border: none;
+                border-radius: 0;
+                font-family: poppins;
+                padding-left: 2%;
+                box-sizing: border-box;
+                padding: 2%;
+                box-sizing: border-box;
+                div.mid{
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 36px;
+                    color: #282938;
+                    padding-bottom: 5%;
+                    box-sizing: border-box;
+                }
+                div.bot{
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: #282938;
+                }
+            }
+        }
+        div.footnot{
+            width: 100%;
+            height: 15%;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            div.left{
+                width: 20%;
+                height: 100%;
+            }
+            div.right{
+                width: 80%;
+                height: 100%;
+                padding: 3%;
+                svg{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
